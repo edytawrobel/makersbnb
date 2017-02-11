@@ -1,12 +1,7 @@
 body {
-  min-height: 2000px;
   padding-top: 140px;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
-/*.flash-notice {
-
-}*/
 
 .landing-cabin {
   padding-top: 30px;
@@ -21,7 +16,6 @@ body {
 }
 
 .navbar-nav>li>a {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 2em;
 }
 
