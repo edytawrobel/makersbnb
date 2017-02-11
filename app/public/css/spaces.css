@@ -13,7 +13,6 @@
   background-size: cover;
   filter: grayscale(100%); -webkit-filter: grayscale(100%);
   background-position: bottom;
-  margin-top: -50px;
 }
 
 h2 {
