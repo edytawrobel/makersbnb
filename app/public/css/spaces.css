@@ -34,3 +34,7 @@ h2 {
 .list-space {
   height: 150px;
 }
+
+.form-horizontal {
+  margin-top: 4em;
+}

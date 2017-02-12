@@ -1,11 +1,24 @@
-<form action='/users/existing' method='POST'>
-  <label for='email'>
-    Email:
-    <input type='text' name='email' pattern='[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$' value='<%=@email_res%>' required />
-  </label><br>
-  <label for='password'>
-    Password:
-    <input type='password' name='password' />
-  </label><br>
-  <input type='submit' value='Login'>
-</form>
+<div class="container">
+  <div class="row">
+    <form action='/users/existing' method='POST' class="form-horizontal signup-form">
+
+      <div class="form-group">
+        <label class="control-label col-sm-2 col-sm-offset-2" for="email">Email:</label>
+        <div class="col-sm-5">
+          <input type="email" name='email' id="email" value='<%=@email_res%>' placeholder="Enter email" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2 col-sm-offset-2" for="password">Password:</label>
+        <div class="col-sm-5">
+          <input type="password" name='password' id="password" placeholder="Enter password" class="form-control" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-offset-4 col-sm-4">
+          <button type="submit" class="btn btn-default btn-details" value='Login'>Login</button>
+        </div>
+      </div>
+    </form>

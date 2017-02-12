@@ -28,7 +28,7 @@ class MakersBnB < Sinatra::Base
   end
 
   post '/users/new' do
-    user = User.create(name: params[:name], email: params[:email], password: params[:password], password_conf: params[:password_conf])
+    user = User.create(name: params[:name], email: params[:email], password: params[:password], password_conf: params[:password_confirmation])
     if user.save
       session[:user_id] = user.id
       redirect '/spaces/view'
