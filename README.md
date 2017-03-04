@@ -2,7 +2,7 @@
 ### Makers Academy Week Challenge No.6
 
 * Shared repository is here: https://github.com/mbgimot/makersbnb
-* Team: Edyta Wrobel, Mica Whitby and Mitchell Goldbay, Kat Hicks
+* Team: Edyta Wrobel, Mica Whitby, Mitchell Goldbay, Kat Hicks
 
 ### User Stories
 
